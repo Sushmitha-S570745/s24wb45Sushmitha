@@ -1,5 +1,8 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div(style="padding: 10px; margin: 10px;")
+    h1(style="color: pink;")= title
+    p(style="color: yellow;") Welcome to #{title}! hello everyone
+    button(style="padding: 10px; margin: 10px;") I am a button
+    button(style="padding: 10px; margin: 10px;",type="button", class="btn btn-success") Press me
